@@ -12,3 +12,6 @@ TUTO : Comment récupérer la base de donnée sur PGAdmin
 1. Creer une BD vide ou la BD déjà utilisée pour le projet
 2. Click droit dessus puis Restore
 3. Choisir le fichier de backup
+
+Membres:
+Benjamin PARCIANY
