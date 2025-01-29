@@ -14,4 +14,7 @@ TUTO : Comment récupérer la base de donnée sur PGAdmin
 Membres:
 
 Benjamin PARCIANY
+
 Lucie FAURE-BEAULANDE
+
+Loïc GIUNTINI
