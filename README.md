@@ -1,7 +1,5 @@
 Parce que c'est notre projet !
 
-
-
 TUTO : Comment exporter la base de donnée depuis PGAdmin
 1. Click droit sur la base de donnée --> Backup
 2. Nommer le fichier team-sbl-backup.sql
@@ -14,4 +12,6 @@ TUTO : Comment récupérer la base de donnée sur PGAdmin
 3. Choisir le fichier de backup
 
 Membres:
+
 Benjamin PARCIANY
+Lucie FAURE-BEAULANDE
