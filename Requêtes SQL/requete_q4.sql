@@ -29,21 +29,13 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-SELECT u.id_utilisateur, u.nom, t.nom AS groupe,
-       (COUNT(DISTINCT p.id_publication) * 0.5 +
-        COUNT(DISTINCT i_comment.id_interaction) * 0.3 +
-        COUNT(DISTINCT i_partage.id_interaction) * 0.2) AS score_influence
+SELECT u.id_utilisateur, u.nom, t.nom AS groupe, 
+       calculer_influence_utilisateur(u.id_utilisateur) AS score_influence
 FROM utilisateur u
 LEFT JOIN publication p ON u.id_utilisateur = p.id_utilisateur
-LEFT JOIN interagir i_comment ON u.id_utilisateur = i_comment.id_utilisateur
-    AND i_comment.type_interaction = 'comment'
-LEFT JOIN interagir i_partage ON u.id_utilisateur = i_partage.id_utilisateur
-    AND i_partage.type_interaction = 'partage'
 LEFT JOIN theme t ON p.id_theme = t.id_theme
 GROUP BY u.id_utilisateur, u.nom, t.nom
 ORDER BY score_influence DESC
 LIMIT 5;
 
-SELECT u.id_utilisateur, u.nom, calculer_influence_utilisateur(u.id_utilisateur) AS score_influence
-FROM utilisateur u
-WHERE u.id_utilisateur = 1;
+-- SELECT u.id_utilisateur, u.nom, calculer_influence_utilisateur(u.id_utilisateur) AS score_influence FROM utilisateur u WHERE u.id_utilisateur = 1;
