@@ -26,3 +26,7 @@ Lucie FAURE-BEAULANDE
 Loïc GIUNTINI
 
 Soleïa MARIETTI
+
+lien pour avoir accès a la vidéo du projet :
+
+https://unice-my.sharepoint.com/:v:/g/personal/loic_giuntini_etu_unice_fr/EVZrdSxxV9lNop08SsL6EMQBebpGnYyLYNyeDBsSf5TyIA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&email=Nadia.ABCHICHE%40univ-cotedazur.fr&e=ns1Jyz
