@@ -11,6 +11,12 @@ TUTO : Comment récupérer la base de donnée sur PGAdmin
 2. Click droit dessus puis Restore
 3. Choisir le fichier de backup
 
+Le rapport de projet regroupe les explications et la reformulation du projet, les explications des requêtes, la description du jeu de données utilisé et l'analyse du déroulement.
+
+Certaines requêtes sont écrites avec des exemples (les INT), il est possible de changer ces valeurs pour faire les tests.
+
+Toutes nos requêtes fonctionnent.
+
 Membres:
 
 Benjamin PARCIANY
