@@ -35,19 +35,6 @@ $$ LANGUAGE plpgsql;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 -- Fonction de calcul du score des commentaires
 CREATE OR REPLACE FUNCTION calculer_score_commentaires(commentaire_id INT) RETURNS FLOAT AS $$
 DECLARE
@@ -86,23 +73,6 @@ $$ LANGUAGE plpgsql;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 -- Fonction de calcul du score des likes
 CREATE OR REPLACE FUNCTION calculer_score_likes(publication_id INT) RETURNS FLOAT AS $$
 DECLARE
@@ -120,9 +90,6 @@ $$ LANGUAGE plpgsql;
 
 
 
-
-
-
 -- Fonction de calcul du score des partages
 CREATE OR REPLACE FUNCTION calculer_score_partages(publication_id INT) RETURNS FLOAT AS $$
 DECLARE
@@ -136,23 +103,6 @@ BEGIN
     RETURN score_partages;
 END;
 $$ LANGUAGE plpgsql;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -187,23 +137,6 @@ $$ LANGUAGE plpgsql;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 -- Fonction de calcul du nombre de followers
 CREATE OR REPLACE FUNCTION calculer_nombre_followers(utilisateur_id INT) RETURNS INT AS $$
 DECLARE
@@ -217,8 +150,6 @@ BEGIN
     RETURN nombre_followers;
 END;
 $$ LANGUAGE plpgsql;
-
-
 
 
 
